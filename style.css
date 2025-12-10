@@ -22,6 +22,7 @@ body{
     background-color: rgb(83, 173, 203);
     padding: 5px;
     border-radius: 3px;
+    height: 20px;
 }
 
 .btn-container{
@@ -47,7 +48,7 @@ body{
     scale: 1.05;
 }
 
-.operation, .clear {
+.addition, .subtraction, .division, .multiplication, .clear {
     background-color: rgb(83, 173, 203);
  }
 
