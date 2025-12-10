@@ -1,0 +1,60 @@
+
+
+* {
+    background-color: rgb(50, 52, 51);
+    color: white;
+    
+}
+
+body{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.calc-container p{
+    text-align: center;
+    background-color: rgb(83, 173, 203);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.btn-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.btn-container button{
+    color: white;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;    
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.calc-container button:hover{
+    scale: 1.05;
+}
+
+.operation, .clear {
+    background-color: rgb(83, 173, 203);
+ }
+
+.AC{
+    background-color: rgb(237, 46, 46);
+}
+
+.equals{
+    background-color: rgb(67, 230, 67);
+}
